@@ -120,6 +120,7 @@ main code start here
   color: #3C3C40;
   font-size: 12px;
   border-radius: 5px;
+  background-color: #fff !important;
 }
 
 #top_banar_title{
