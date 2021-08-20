@@ -1,0 +1,243 @@
+/*-- this is for webpage restae page desigm --*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'DM Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #05386B;
+  transition: 0.4s;
+  font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #05386B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  position: relative;
+  font-family: 'DM Sans', sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #323232;
+  font-family: 'DM Sans', sans-serif;
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+/*------------------------
+main code start here 
+-------------------------*/
+.text-center{
+  text-align: center;
+}
+
+.btn_main{
+  border: none;
+  outline: none;
+  background-color: #2C40CE;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 14px 30px;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.btn_main:focus{
+  color: #fff !important;
+}
+
+
+.btn_main svg{
+  fill: #fff;
+  margin-left: 5px;
+}
+
+.input_box{
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.input_box label{
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  color: #1E1F29;
+  font-weight: 500;
+}
+.input_box input, 
+.input_box select{
+  margin-top: 10px;
+  width: 90%;
+  border: 1px solid #ACACAC;
+  min-height: 40px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  font-weight: 500;
+  color: #3C3C40;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+#top_banar_title{
+  padding: 30px 0px 20px 0px;
+  background: #2C40CE;
+}
+
+#top_banar_title h3{
+  font-weight: 500;
+  font-size: 13px;
+  color: #fff;
+}
+
+#hero_card_image{
+  padding: 20px 0px;
+}
+#hero_card_image img{
+  width: 100%;
+  border-radius: 5px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.submit_action button{
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+/* link_account_action */
+#link_account_action{
+  padding: 15px 0px;
+}
+#link_account_action a{
+  border: 1px solid #2C40CE;
+  color: #2C40CE;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  padding: 13px 0px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+}
+#link_account_action a svg{
+  fill: #2C40CE;
+  margin-left: 5px;
+}
+
+#chart_saving_info .top_title h3{
+  font-weight: 500;
+  font-size: 13px;
+  color: #1E1F29;
+}
+
+.savig_chart_box{
+  margin-top: 10px;
+  background-color: #2C40CE;
+  padding: 30px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.color_terget{
+  color: #FFA126;
+}
+.color_success{
+  color: #3BC06D;
+}
+.chart_canvas{
+  width: 45%;
+}
+.savig_chart_box .info_box{
+  margin-left: 30px;
+}
+.savig_chart_box .info_box .info_item{
+  margin-bottom: 15px;
+}
+.savig_chart_box .info_box .info_item h4{
+  font-size: 13px;
+  font-weight: 500;
+}
+.savig_chart_box .info_box .info_item h5{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+#nudge_box{
+  padding: 20px 0px;
+  background: #fff;
+  clear: both;
+}
+
+#nudge_box .top_title h3{
+  font-weight: 500;
+  font-size: 13px;
+  color: #1E1F29;
+}
+#nudge_box .nudge_box_container{
+  border: 1px solid #2C40CE;
+  padding: 30px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#nudge_box .nudge_box_container p{
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#nudge_box .nudge_box_container a{
+  display: block;
+  width: 44%;
+  margin: 0 auto;
+  margin-top: 18px;
+}
